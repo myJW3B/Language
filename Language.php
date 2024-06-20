@@ -8,7 +8,7 @@ function l($words, $find=[], $rep=[]){
 			? str_replace($find, $rep, Config::$l['lang_update'][$words])
 			: str_replace($find, $rep, $words);
 		if(!isset(Config::$l['lang'][$words])){
-			$file = Config::$w['root'].'/config/DefaultLanguage.php';
+			$file = Config::$c['website']['root'].'/DefaultLanguage.php';
 			//include($file);
 			if(!isset(Config::$l['lang'][$words])){
 				// we gotta add it to the main language file..
