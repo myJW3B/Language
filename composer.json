@@ -1,8 +1,6 @@
 {
 	"name":"myjw3b/language",
-	"require": {
-		"myjw3b/core" : "main"
-	},
+	"description": "Used in JW3B Core for language definitions",
 	"autoload": {
 			"files": [
 					"Language.php"
@@ -10,7 +8,6 @@
 	},
 	"type": "project",
 	"minimum-stability": "dev",
-	"description": "Used in JW3B Core for language definitions",
 	"license": "MIT",
 	"authors": [
 		{
