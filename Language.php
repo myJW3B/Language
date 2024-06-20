@@ -1,7 +1,7 @@
 <?php
 use JW3B\core\Config;
 // language function
-function l($words, $website, $find=[], $rep=[]){
+function l($words, $find=[], $rep=[]){
 	$ret = $words;
 	if($words != ''){
 		$ret = isset(Config::$l['lang_update'][$words])
