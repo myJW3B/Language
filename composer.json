@@ -1,0 +1,11 @@
+{
+	"name":"myjw3b/language",
+	"require": {
+		"myjw3b/core" : "[dev-main]"
+	},
+	"autoload": {
+			"files": [
+					"Language.php"
+			]
+	}
+}
