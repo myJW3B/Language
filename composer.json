@@ -7,5 +7,17 @@
 			"files": [
 					"Language.php"
 			]
-	}
+	},
+	"type": "project",
+	"minimum-stability": "dev",
+	"description": "Used in JW3B Core for language definitions",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "John Brittain III",
+			"email": "Yohn@coming-soon.com",
+			"homepage": "https://github.com/Yohn",
+			"role": "Developer"
+		}
+	]
 }
