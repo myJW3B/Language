@@ -1,7 +1,7 @@
 {
 	"name":"myjw3b/language",
 	"require": {
-		"myjw3b/core" : "[dev-main]"
+		"myjw3b/core" : "dev"
 	},
 	"autoload": {
 			"files": [
